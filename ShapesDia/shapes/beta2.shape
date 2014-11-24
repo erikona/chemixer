@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Pictures - beta2</name>
+  <icon>beta2.png</icon>
+  <connections>
+    <point x="30.7" y="12.55"/>
+    <point x="30.7" y="6.14999"/>
+    <point x="27.3" y="9.35"/>
+    <point x="34.1" y="9.35"/>
+    <point x="37.2" y="12.6"/>
+    <point x="24.8868" y="12.6"/>
+    <point x="31.0434" y="12.6"/>
+    <point x="24.5118" y="12.6"/>
+    <point x="25.0118" y="12.35"/>
+    <point x="24.8868" y="12.6"/>
+    <point x="25.0118" y="12.85"/>
+    <point x="24.7618" y="12.475"/>
+    <point x="24.9493" y="12.475"/>
+    <point x="24.9493" y="12.725"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: #ffffff" cx="30.7" cy="9.35" rx="3.4" ry="3.20001"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="30.7" cy="9.35" rx="3.4" ry="3.20001"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="37.2" y1="12.6" x2="24.8868" y2="12.6"/>
+    <svg:polygon style="fill: #000000" points="24.5118,12.6 25.0118,12.35 24.8868,12.6 25.0118,12.85 "/>
+    <svg:polygon style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" points="24.5118,12.6 25.0118,12.35 24.8868,12.6 25.0118,12.85 "/>
+    <svg:text style="fill: #000000; text-anchor:start; font-family: sans; font-style: normal; font-weight: normal" x="30.7" y="9.35" font-size="0.8" textLength="0"></svg:text>
+    <svg:text style="fill: #000000; text-anchor:start; font-family: sans; font-style: normal; font-weight: normal" x="28.5236" y="13.2868" font-size="0.8" textLength="0"></svg:text>
+  </svg:svg>
+</shape>
