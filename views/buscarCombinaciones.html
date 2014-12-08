@@ -7,48 +7,56 @@
 	<link href='css/css.css', rel='stylesheet'>
 </head>
 <body>
-	<nav>
-		<div>
-			<div>
-				<!--<img src="img/logo.png" class="img-responsive img-rounded" alt="Responsive image">-->
-			</div>
-			<div>
-				<h1>Chemixer</h1>
-			</div>
-		</div>
-		<div>
-			<ul class="nav nav-tabs">
+	<nav class="nav">
+		<img src="img/cheMixer.png" class="img-responsive img-rounded" alt="Responsive image">
+		<div class="Nav">
+			<ul class="nav nav-tabs ">
 				<li><a href="#">Inicio</a></li>
 				<li class="active"><a href="#">Combinaciones</a></li>
 				<li><a href="#">Cerrar Sesión</a></li>
 			</ul>
 		</div>
 	</nav>
-	<section class="container">
-		<div>
-			<div class="form-group">
-				<h2>Administrador</h2>
-				<img src="img/user.png" class="img-responsive" alt="Responsive image">
-			</div>
-			<form class="navbar-form navbar-left" role="search">
-     			<div class="form-group">
-        			<input type="text" class="form-control" placeholder="Array de combinaciones">
-      			</div>
-      			<button type="submit" class="btn btn-default"><img src="img/search.png" class="img-responsive img-rounded" alt="Responsive image"></button>
-    			<div class="panel panel-info">
-    				<div class="panel-heading">
-    					<h3 class="panel-title">Título del panel con estilo h3</h3>
-  					</div>
-  					<div class="panel-body">
-    					<p>Contenido</p>
-  					</div>
+	<section class="container centrar">
+		<h3>Buscar</h3>
+		<form class="navbar-form navbar-left" role="search">
+     		<div class="form-group">
+        		<input type="text" class="form-control" placeholder="Array de combinaciones">
+      		</div>
+      		<button type="submit" class="btn button"><img src="img/search2.png" class="img-responsive img-rounded imgBuscar" alt="Responsive image"></button>
+    	</form>
+	</section>
+	<section class="dropdown-menu container">
+		<div class="panel panel-default">
+  			<div class="panel-heading">Array de combinaciones</div>
+  				<table class="table">
+  					<div class="col-sm-1">Datos</div>
+  				</table>
+  		</div>
+  		<div class="botones">
+    		<div class="col-md-6">
+    			<button type="submit" class="btn button">Modificar</button>
+    		</div>
+    		<div class="col-md-6">
+    			<button type="submit" class="btn button">Eliminar</button>
+    		</div>
+    	</div>
+	</section>
+	<section class="dropdown-menu container centrar">
+		<h3>Modificar</h3>
+		<form class="navbar-form navbar-left">
+     		<div class="form-group">
+        		<input type="text" class="form-control" placeholder="Array de combinaciones">
+      		</div>
+      		<div class="botones">
+    			<div class="col-md-6">
+    			  <button type="submit" class="btn button">Cancelar</button>
     			</div>
-    			<div class="form-group botones">
-    				<button type="submit" class="btn button">Eliminar</button>
-      				<button type="submit" class="btn button">Modificar</button>
+    			<div class="col-md-6">
+    				  <button type="submit" class="btn button">Modificar</button>
     			</div>
-    		</form>
-		</div>
+ 			  </div>
+    	</form>
 	</section>
 	<footer>
 		<h3>Footer</h3>

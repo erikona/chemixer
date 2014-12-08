@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Modificar Elementos</title>
+	<title>Agregar Elementos</title>
 	<link href='css/bootstrap.css', rel='stylesheet' media="screen">
 	<link href='css/css.css', rel='stylesheet'>
 </head>
@@ -17,25 +17,24 @@
 			</ul>
 		</div>
 	</nav>
-	<section class="container centrar">
-		<h3>Modificar</h3>
-		<form class="form-horizontal col-xs-8" role="form">
-  			<div class="form-group">
-    			<label for="inputNombreE" class="col-sm-2 control-label">Nombre del elemento</label>
-    			<div class="col-sm-10">
-      				<input type="nombreE" class="form-control" id="inputNombreE" placeholder="">
+	<section class="container" id="agregar">
+		<form class="form-horizontal col-xs-10" role="form">
+  		<div class="form-group">
+    		<label for="inputNombreE" class="col-sm-2 control-label">Nombre del elemento</label>
+    		<div class="col-sm-10">
+      	   <input type="nombreE" class="form-control" id="inputNombreE" placeholder="">
     			</div>
   			</div>
   			<div class="form-group">
-   			 <label for="inputDescripcion" class="col-sm-2 control-label">Descripción</label>
+   				<label for="inputDescripcion" class="col-sm-2 control-label">Descripción</label>
     			<div class="col-sm-10">
       				<textarea class="form-control" rows="3"></textarea>
     			</div>
   			</div>
   			<div class="form-group">
-   			 <label for="inputAgregaImg" class="col-sm-2 control-label">Cambiar imagen</label>
+   				<label for="inputAgregaImg" class="col-sm-2 control-label">Agregar imagen</label>
     			<div class="col-sm-10">
-      				<textarea class="form-control" rows="3"></textarea>
+      				<input type="imagenElem" class="form-control" id="inputimagenElem" placeholder="">
     			</div>
   			</div>
   			<div class="botones">
@@ -43,9 +42,9 @@
     			  <button type="submit" class="btn button">Cancelar</button>
     			</div>
     			<div class="col-md-6">
-    			  <button type="submit" class="btn button">Aceptar<button>
+    				  <button type="submit" class="btn button">Aceptar</button>
     			</div>
- 			</div>
+ 			  </div>
 		</form>
 	</section>
 	<footer>
