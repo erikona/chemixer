@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Pictures - interfaces</name>
+  <icon>interfaces.png</icon>
+  <connections>
+    
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: #ffffff" cx="27.3377" cy="10.0767" rx="1.2" ry="1.2"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="27.3377" cy="10.0767" rx="1.2" ry="1.2"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="24.5" y1="10.07" x2="26.14" y2="10.07"/>
+    
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="24.5" y1="9.5" x2="24.5" y2="10.7"/>
+    
+  </svg:svg>
+</shape>

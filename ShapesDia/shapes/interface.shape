@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns" xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Pictures - interface</name>
+  <icon>interface.png</icon>
+  <connections>
+    <point x="22.5716" y="9.27246"/>
+    <point x="22.5716" y="7.27246"/>
+    <point x="21.5716" y="8.27246"/>
+    <point x="23.5716" y="8.27246"/>
+    <point x="21.5716" y="8.27246"/>
+    <point x="20.5716" y="8.27246"/>
+    <point x="21.0716" y="8.27246"/>
+    <point x="20.5716" y="7.27246"/>
+    <point x="20.5716" y="9.27246"/>
+    <point x="20.5716" y="8.27246"/>
+  </connections>
+  <aspectratio type="fixed"/>
+  <svg:svg>
+    <svg:ellipse style="fill: #ffffff" cx="22.5716" cy="8.27246" rx="1" ry="1"/>
+    <svg:ellipse style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" cx="22.5716" cy="8.27246" rx="1" ry="1"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="21.5716" y1="8.27246" x2="20.5716" y2="8.27246"/>
+    <svg:line style="fill: none; fill-opacity:0; stroke-width: 0.1; stroke: #000000" x1="20.5716" y1="7.27246" x2="20.5716" y2="9.27246"/>
+    <svg:text style="fill: #000000; text-anchor:middle; font-family: sans; font-style: normal; font-weight: normal" x="22.5716" y="10.6625" font-size="0.8" textLength="0"></svg:text>
+  </svg:svg>
+</shape>
